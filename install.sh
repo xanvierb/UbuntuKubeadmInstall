@@ -15,7 +15,7 @@ echo -n "Is this the Master(m) or Slave(s)... "
 read character
 if [ "$character" = "m" ]; then
     echo "Installing Master software"
-    sudo ./master
+    sudo ./master.sh
     echo " [✓] done"
 else
     if [ "$character" = "s" ]; then
